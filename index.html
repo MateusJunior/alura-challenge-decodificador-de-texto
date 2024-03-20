@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - Desafio 1 - Lógica</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <section class="logo-menu">
+        <a href="https://www.alura.com.br/">
+            <img src="./assets/logoAlura.svg" alt="Logo Alura">
+        </a>
+    </section>
+
+    <section class="texto-traduzir">
+        <textarea id="texto-input" name="" id="" cols="30" rows="10" placeholder="Digite seu texto aqui"></textarea>
+        <div class="attention-msg">
+            <img class="svg-naoencontrado" src="./assets/attention.svg" alt="Atenção">
+            <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+
+        <div class="btns">
+            <a href="#" id="btn-criptografar" onclick="criptografar()">Criptografar</a>
+            <a href="#" id="btn-descriptografar" onclick="descriptografar()">Descriptografar</a>
+        </div>
+    </section>
+
+    <section class="texto-traduzido">
+        <section id="texto-naoencontrado">
+            <img src="./assets/naoecontrado.svg" alt="Mensagem não encontrada">
+            <h1 class="titulo-traduzido">Nenhuma mensagem encontrada</h1>
+            <p class="paragrafo-traduzido">Digite um texto que você deseja criptografar ou descriptografar.</p>    
+        </section>
+        <section id="texto-encontrado">
+            <textarea readonly id="texto-output" name="" cols="10"></textarea>
+            <a href="#" id="btn-copiar" onclick="copiarTexto('texto-output')">Copiar</a>
+        </section>
+        
+    </section>
+</body>
+</html>

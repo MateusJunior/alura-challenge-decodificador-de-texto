@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding-top: 50px;
+    display: flex;
+    background-color: #F3F5FC;
+    gap: 50px;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+
+#texto-naoencontrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza o texto */
+    height: 100%; /* Garante que ocupe toda a altura da seção */
+}
+
+#texto-encontrado{
+    justify-content: center;
+    display: none;
+}
+
+#texto-input{
+    width: 40.625rem;
+    height: 34.375rem;
+    resize: none;
+    background-color: #F3F5FC;
+    border: none;
+    font-size: 35px;
+    color: #0a3871;
+}
+
+#texto-input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#texto-output{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: white;
+    border: none;
+    font-size: 35px;
+    color: #0a3871;
+}
+
+#texto-output:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+
+.texto-traduzido{
+    padding: 45px 45px 0px 45px;
+    width: 20rem;
+    height: 18.75rem;
+    height: auto;
+    background-color: white;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.texto-traduzir{
+    padding: 45px;
+}
+
+.attention-msg{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-traduzido{
+    justify-content: center;
+    
+}
+
+.paragrafo-traduzido{
+    justify-content: center;
+}
+
+.svg-naoencontrado{
+    width: 15px;
+}
+
+#btn-criptografar{
+/* background-color: #06D6A0; ctrl + k + c*/ 
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 70%;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 400;
+    background-color: #0a3871;
+    font-style: normal;
+    border: 2px solid #0a3871;
+}
+
+#btn-criptografar:hover{
+    background-color: #105d87;;
+}
+
+#btn-descriptografar{
+    /* background-color: #06D6A0; ctrl + k + c*/ 
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        width: 70%;
+        text-align: center;
+        border-radius: 25px;
+        font-size: 1rem;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: #0a3871;
+        font-weight: 400;
+        background-color: #F3F5FC;
+        font-style: normal;
+        border: 2px solid #0a3871;
+}
+    
+#btn-descriptografar:hover{
+    background-color: #e6ebf5;;
+}
+    
+.btns{
+    gap: 25px;
+    display: flex;
+}
+
+#btn-copiar{
+    /* background-color: #06D6A0; ctrl + k + c*/ 
+        display: flex;
+        justify-content: center;
+        width: 85%;
+        text-align: center;
+        border-radius: 25px;
+        font-size: 1rem;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: #0a3871;
+        font-weight: 400;
+        background-color: white;
+        font-style: normal;
+        border: 2px solid #0a3871;
+    }
+    
+#btn-copiar:hover{
+    background-color: #e6ebf5;;
+}
